@@ -31,8 +31,7 @@ Git
 
 ### Installation instruction
 ```
-Git clone https://github.com/hamida-mstafa/Triangle-tracker.git
-
+Git clone https://github.com/Bjoseph23/SA.01-WK1-Code-Challenge
 ```
 ## Technologies used
 HTML
