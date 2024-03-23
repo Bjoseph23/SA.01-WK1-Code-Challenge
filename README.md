@@ -34,10 +34,6 @@ Git
 Git clone https://github.com/hamida-mstafa/Triangle-tracker.git
 
 ```
-
-# Live Link
-[Git](gh-pages link)
-
 ## Technologies used
 HTML
 Javascript
