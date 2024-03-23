@@ -20,15 +20,15 @@ function calculateDemeritPoits(speed) {
     if (speed <= speedLimit) {
       message = 'Ok';
     } else if (demeritPoints<=12){
-        message = `Points: ${demeritPoints}`;
+        message = `Your Dermit points are: ${demeritPoints}`;
     } else {
         message="Lisence suspended"
     }
     return message; // Return the message
 }
 const speed = prompt("Enter Vehicle Speed: "); // Get user input
-
-console.log(calculateDemeritPoits)
+const speedResult= (calculateDemeritPoits(speed))
+console.log(speedResult)
 
 
   
