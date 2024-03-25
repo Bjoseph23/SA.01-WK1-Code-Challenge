@@ -19,6 +19,7 @@ function calculateStudentGrade(marks) {
 }
 
 const calculatedGrade = calculateStudentGrade(marks); // Call the function
+  
 
 const gradeMessage = `With a mark of ${marks}, you have a grade of ${calculatedGrade}`; // Fix typo
 console.log(gradeMessage); // Print the grade message
