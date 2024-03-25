@@ -54,7 +54,7 @@ function calculateMontlyPayee(salary){
         payee = 0.325*grossSalary
     } else if (grossSalary >800000){
         payee = 0.35*grossSalary
-    } else if (grossSalary === 0){
+    } else if (grossSalary <24000){
         payee = 0
     } else if ( grossSalary === "") {
         return "Invalid Input. Kindly enter a valid numerical value"
