@@ -68,7 +68,12 @@ function calculateMontlyPayee(grossSalary) {
 const grossSalary = prompt("Please enter your gross salary: ");
 
 // Call the function and print the result (I figured that i had to put it in functional scope for it stop giving an error)
+
+
 const result = calculateMontlyPayee(grossSalary);
+/*See our values. (I figured to avoid errors related to functional and block scope errors, i learned how to use
+ the result. to get the specific calculations from the object returned from the function so that I could use it for output*/
+
   console.log(`Your monthly PAYE tax is: Ksh ${result.payee}`);
   console.log(`Total Affordable Housing Levy: Ksh ${result.ahl}`);
   console.log(`Total NHIF deduction: Ksh ${result.nhif}`);
