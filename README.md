@@ -6,7 +6,7 @@
 #### By *Bill Mageni*
 
 ## Description
-This folder consits of three major files within the java_programs folder nameley;
+This folder consits of three major files nameley;
 1.gradeGenerator.js
 2.speedDetector.js
 3.netSalary.js
