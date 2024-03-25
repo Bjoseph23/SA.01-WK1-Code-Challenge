@@ -2,7 +2,7 @@ const prompt = require("prompt-sync")({ sigint: true });
 
 // Define our function that works out our speed and demerit points
 function calculateDemeritPoits(speed) {
-      // Ensure the value for speed is not null/empty
+      // Ensure the value for speed is not empty
     if (speed === "") {
         return "Invalid input. Enter a valid numerical value for speed";
     }
